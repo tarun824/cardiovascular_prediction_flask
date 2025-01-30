@@ -20,7 +20,6 @@ def predict_disease():
         new_data = [[age, gender, height, weight, 100, 60, smoke, alco]]
         #load the model and predict the data
         #create a new data
-
         # model = joblib.load(open("../cardiovascular_prediction/model/cardiovascular_prediction_model.plk", 'rb'))
         # scaler = joblib.load(open("../cardiovascular_prediction/model/cardiovascular_prediction_scaler.plk", 'rb'))
         model = joblib.load(open("models/cardiovascular_prediction_model.plk", 'rb'))
