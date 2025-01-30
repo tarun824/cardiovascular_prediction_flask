@@ -14,5 +14,6 @@
         "Access-Control-Allow-Origin": "*"
       }
     }
-  ]
+  ],
+  "installCommand": "pip install -r requirements.txt"
 }
